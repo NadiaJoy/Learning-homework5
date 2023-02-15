@@ -53,5 +53,12 @@ public class Main {
         System.out.println(mySecondArray[0] +" "+ mySecondArray[1]);
         System.out.println(myThirdArray[0] +" "+ myThirdArray[1]);
 
+        //part2
+
+        Phone phone1 = new Phone("53672366", "M31S", 110.2);
+        Phone phone2 = new Phone("67543288", "J4+", 94.2);
+
+        phone2.getNumber();
+        phone1.getNumber();
     }
 }
