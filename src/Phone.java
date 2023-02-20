@@ -19,4 +19,10 @@ public class Phone {
 
     }
 
+    public void callingPhoneNumber(String phoneNumber) {
+        System.out.println("Calling " + phoneNumber);
+
+    }
+
+
 }
