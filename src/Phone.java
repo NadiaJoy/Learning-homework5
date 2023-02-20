@@ -15,7 +15,7 @@ public class Phone {
     }
 
     public void getNumber() {
-        System.out.println("The model of this phone:" + this.model);
+        System.out.println("The model of this phone: " + this.model);
 
     }
 

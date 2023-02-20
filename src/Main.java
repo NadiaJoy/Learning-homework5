@@ -17,15 +17,15 @@ public class Main {
         String summer = "Summer";
         String fall = "Fall";
 
-        if (monthNumber <= 12) {
-            if (monthNumber >= 3 && monthNumber <= 5) {
+        if (monthNumber > 0 && monthNumber <= 12 ) {
+            if (monthNumber == 1 || monthNumber == 2 || monthNumber == 12) {
+                System.out.println(winter);
+            } else if ( monthNumber <= 5) {
                 System.out.println(spring);
             } else if (monthNumber <= 8) {
                 System.out.println(summer);
-            } else if (monthNumber <= 11) {
-                System.out.println(fall);
             } else {
-                System.out.println(winter);
+                System.out.println(fall);
             }
 
         } else {
