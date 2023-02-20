@@ -33,13 +33,12 @@ public class Main {
         }
 
         // ex.2
-        ArrayList<String> myArrayList;
-        myArrayList = new ArrayList<>();
-        myArrayList.add("Muse");
-        myArrayList.add("Marlyn Manson");
-        myArrayList.add("Estas Tonne");
-        myArrayList.add("Splin");
-        myArrayList.add("Anton (true)");
+        String[] myFavoriteBands = new String[5];
+        myFavoriteBands[0] =  "Muse";
+        myFavoriteBands[1] = "Marlyn Manson";
+        myFavoriteBands[2] = "Estas Tonne";
+        myFavoriteBands[3] = "Splin";
+        myFavoriteBands[4] = "singing Anton";
 
         //ex.3
         int[] myFirstArray = new int[2];
